@@ -69,6 +69,90 @@
       "trigger_price": 15.38,
       "direction": "le",
       "triggered": false
+    },
+    {
+      "name": "创新药基",
+      "code": "589120",
+      "trigger_price": 0.69,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "中际旭创",
+      "code": "300308",
+      "trigger_price": 1001.70,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "特锐德",
+      "code": "300001",
+      "trigger_price": 26.88,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "格力电器",
+      "code": "000651",
+      "trigger_price": 34.88,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "招商蛇口",
+      "code": "001979",
+      "trigger_price": 5.88,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "标普油气",
+      "code": "159518",
+      "trigger_price": 0.888,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "鱼跃医疗",
+      "code": "002223",
+      "trigger_price": 22.88,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "银禧科技",
+      "code": "300221",
+      "trigger_price": 8.66,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "标普ETF",
+      "code": "513650",
+      "trigger_price": 1.610,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "科技恒生",
+      "code": "513380",
+      "trigger_price": 0.496,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "汇川技术",
+      "code": "300124",
+      "trigger_price": 55.66,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "黄金ETF",
+      "code": "518880",
+      "trigger_price": 7.111,
+      "direction": "le",
+      "triggered": false
     }
   ],
   "email": {
