@@ -33,8 +33,7 @@
       "code": "600309",
       "trigger_price": 75.11,
       "direction": "le",
-      "triggered": true,
-      "current_price": 70.09
+      "triggered": false
     }
   ],
   "email": {
