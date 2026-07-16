@@ -153,6 +153,104 @@
       "trigger_price": 7.111,
       "direction": "le",
       "triggered": false
+    },
+    {
+      "name": "海天味业",
+      "code": "603288",
+      "trigger_price": 31.66,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "中国移动",
+      "code": "600941",
+      "trigger_price": 83.75,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "中概互联",
+      "code": "513050",
+      "trigger_price": 1.03,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "宝钢股份",
+      "code": "600019",
+      "trigger_price": 5.11,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "战略新兴",
+      "code": "512770",
+      "trigger_price": 2.50,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "医疗ETF",
+      "code": "512170",
+      "trigger_price": 0.30,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "中国海油",
+      "code": "600938",
+      "trigger_price": 26.06,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "标普消费",
+      "code": "159529",
+      "trigger_price": 1.16,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "纳指指数",
+      "code": "513870",
+      "trigger_price": 1.82,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "正泰电器",
+      "code": "601877",
+      "trigger_price": 21.42,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "顺丰控股",
+      "code": "002352",
+      "trigger_price": 30.06,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "白云山",
+      "code": "600332",
+      "trigger_price": 20.39,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "宁德时代",
+      "code": "300750",
+      "trigger_price": 329.58,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "海尔智家",
+      "code": "600690",
+      "trigger_price": 19.00,
+      "direction": "le",
+      "triggered": false
     }
   ],
   "email": {
