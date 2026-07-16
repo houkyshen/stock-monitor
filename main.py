@@ -21,17 +21,37 @@ def save_config(config):
         json.dump(config, f, ensure_ascii=False, indent=2)
 
 
-def get_stock_prices():
-    try:
-        df = ak.stock_zh_a_spot_em()
-        df["代码"] = df["代码"].astype(str)
-        return df.set_index("代码")
-    except Exception:
-        pass
+def get_all_prices():
+    prices = {}
 
-    df = ak.stock_zh_a_spot()
-    df["代码"] = df["代码"].astype(str)
-    return df.set_index("代码")
+    sources = [
+        ("东方财富股票", lambda: ak.stock_zh_a_spot_em()),
+        ("新浪股票", lambda: ak.stock_zh_a_spot()),
+        ("东方财富ETF", lambda: ak.fund_etf_spot_em()),
+    ]
+
+    for name, fetcher in sources:
+        try:
+            df = fetcher()
+            for _, row in df.iterrows():
+                code = str(row["代码"])
+                if code not in prices:
+                    prices[code] = float(row["最新价"])
+            print(f"[INFO] {name}数据获取成功，共 {len(df)} 条")
+        except Exception as e:
+            print(f"[WARN] {name}数据获取失败: {e}")
+
+    return prices
+
+
+def find_price(prices, code):
+    if code in prices:
+        return prices[code]
+    for prefix in ("sz", "sh", "bj"):
+        prefixed = prefix + code
+        if prefixed in prices:
+            return prices[prefixed]
+    return None
 
 
 def send_email(config, stock):
@@ -70,11 +90,10 @@ def send_email(config, stock):
 def main():
     config = load_config()
 
-    print(f"[INFO] 开始获取股价数据...")
-    try:
-        df = get_stock_prices()
-    except Exception as e:
-        print(f"[ERROR] 获取股价数据失败：{e}")
+    print("[INFO] 开始获取股价数据...")
+    prices = get_all_prices()
+    if not prices:
+        print("[ERROR] 无法获取任何股价数据")
         sys.exit(1)
 
     triggered_any = False
@@ -85,18 +104,11 @@ def main():
             continue
 
         code = stock["code"]
-        matched_code = code
-        if code not in df.index:
-            for prefix in ("sz", "sh", "bj"):
-                prefixed = prefix + code
-                if prefixed in df.index:
-                    matched_code = prefixed
-                    break
-            else:
-                print(f"[WARN] 未找到股票 {stock['name']}({code})，跳过")
-                continue
+        current_price = find_price(prices, code)
+        if current_price is None:
+            print(f"[WARN] 未找到股票 {stock['name']}({code})，跳过")
+            continue
 
-        current_price = float(df.loc[matched_code, "最新价"])
         trigger_price = stock["trigger_price"]
         direction = stock.get("direction", "le")
 

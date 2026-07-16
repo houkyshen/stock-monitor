@@ -43,9 +43,30 @@
       "triggered": false
     },
     {
+      "name": "立讯精密",
+      "code": "002475",
+      "trigger_price": 50.66,
+      "direction": "le",
+      "triggered": false
+    },
+    {
       "name": "东南亚科技ETF华泰",
       "code": "513730",
-      "trigger_price": 1.20,
+      "trigger_price": 1.08,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "招商银行",
+      "code": "600036",
+      "trigger_price": 34.77,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "华域汽车",
+      "code": "600741",
+      "trigger_price": 15.38,
       "direction": "le",
       "triggered": false
     }
