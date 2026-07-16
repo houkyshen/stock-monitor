@@ -1,0 +1,15 @@
+[project]
+name = "stock-monitor"
+version = "0.1.0"
+description = "A股股价提醒工具"
+requires-python = ">=3.10"
+dependencies = [
+    "akshare>=1.16.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main", "reset_trigger"]

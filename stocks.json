@@ -1,0 +1,45 @@
+{
+  "stocks": [
+    {
+      "name": "美的集团",
+      "code": "000333",
+      "trigger_price": 60.66,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "五粮液",
+      "code": "000858",
+      "trigger_price": 58.55,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "龙佰集团",
+      "code": "002601",
+      "trigger_price": 14.88,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "安井食品",
+      "code": "603345",
+      "trigger_price": 70.11,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "万华化学",
+      "code": "600309",
+      "trigger_price": 75.11,
+      "direction": "le",
+      "triggered": false
+    }
+  ],
+  "email": {
+    "sender": "786501105@qq.com",
+    "receiver": "786501105@qq.com",
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465
+  }
+}
