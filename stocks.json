@@ -12,7 +12,8 @@
       "code": "000858",
       "trigger_price": 80.55,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 76.4
     },
     {
       "name": "龙佰集团",
@@ -33,7 +34,7 @@
       "code": "600309",
       "trigger_price": 75.11,
       "direction": "le",
-      "triggered": false,
+      "triggered": true,
       "current_price": 70.09
     }
   ],
