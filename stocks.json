@@ -10,10 +10,9 @@
     {
       "name": "五粮液",
       "code": "000858",
-      "trigger_price": 80.55,
+      "trigger_price": 60.55,
       "direction": "le",
-      "triggered": true,
-      "current_price": 76.4
+      "triggered": false
     },
     {
       "name": "龙佰集团",
@@ -32,10 +31,23 @@
     {
       "name": "万华化学",
       "code": "600309",
-      "trigger_price": 75.11,
+      "trigger_price": 60.66,
       "direction": "le",
-      "triggered": true,
-      "current_price": 70.09
+      "triggered": false
+    },
+    {
+      "name": "阳光电源",
+      "code": "300274",
+      "trigger_price": 66.66,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "东南亚科技ETF华泰",
+      "code": "513730",
+      "trigger_price": 1.20,
+      "direction": "le",
+      "triggered": false
     }
   ],
   "email": {
