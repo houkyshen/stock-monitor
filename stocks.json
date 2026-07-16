@@ -10,7 +10,7 @@
     {
       "name": "五粮液",
       "code": "000858",
-      "trigger_price": 58.55,
+      "trigger_price": 80.55,
       "direction": "le",
       "triggered": false
     },
@@ -33,7 +33,7 @@
       "code": "600309",
       "trigger_price": 75.11,
       "direction": "le",
-      "triggered": true,
+      "triggered": false,
       "current_price": 70.09
     }
   ],
