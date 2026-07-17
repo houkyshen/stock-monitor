@@ -80,9 +80,10 @@
     {
       "name": "中际旭创",
       "code": "300308",
-      "trigger_price": 1001.70,
+      "trigger_price": 1001.7,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 979.46
     },
     {
       "name": "特锐德",
@@ -129,7 +130,7 @@
     {
       "name": "标普ETF",
       "code": "513650",
-      "trigger_price": 1.610,
+      "trigger_price": 1.61,
       "direction": "le",
       "triggered": false
     },
@@ -185,14 +186,14 @@
     {
       "name": "战略新兴",
       "code": "512770",
-      "trigger_price": 2.50,
+      "trigger_price": 2.5,
       "direction": "le",
       "triggered": false
     },
     {
       "name": "医疗ETF",
       "code": "512170",
-      "trigger_price": 0.30,
+      "trigger_price": 0.3,
       "direction": "le",
       "triggered": false
     },
@@ -248,7 +249,7 @@
     {
       "name": "海尔智家",
       "code": "600690",
-      "trigger_price": 19.00,
+      "trigger_price": 19.0,
       "direction": "le",
       "triggered": false
     }
