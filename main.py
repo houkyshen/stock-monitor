@@ -10,6 +10,11 @@ import akshare as ak
 
 CONFIG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "stocks.json")
 
+INDEX_CODE_MAP = {
+    "1A0001": "sh000001",
+    "1B0688": "sh000688",
+}
+
 
 def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
@@ -28,6 +33,7 @@ def get_all_prices():
         ("东方财富股票", lambda: ak.stock_zh_a_spot_em()),
         ("新浪股票", lambda: ak.stock_zh_a_spot()),
         ("东方财富ETF", lambda: ak.fund_etf_spot_em()),
+        ("新浪指数", lambda: ak.stock_zh_index_spot_sina()),
     ]
 
     for name, fetcher in sources:
@@ -47,6 +53,10 @@ def get_all_prices():
 def find_price(prices, code):
     if code in prices:
         return prices[code]
+    if code in INDEX_CODE_MAP:
+        mapped = INDEX_CODE_MAP[code]
+        if mapped in prices:
+            return prices[mapped]
     for prefix in ("sz", "sh", "bj"):
         prefixed = prefix + code
         if prefixed in prices:
