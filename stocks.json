@@ -80,10 +80,9 @@
     {
       "name": "中际旭创",
       "code": "300308",
-      "trigger_price": 1001.7,
+      "trigger_price": 888,
       "direction": "le",
-      "triggered": true,
-      "current_price": 979.46
+      "triggered": false
     },
     {
       "name": "特锐德",
@@ -250,6 +249,34 @@
       "name": "海尔智家",
       "code": "600690",
       "trigger_price": 19.0,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "中国船舶",
+      "code": "600150",
+      "trigger_price": 29.106,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "松发股份",
+      "code": "603268",
+      "trigger_price": 126.9,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "明阳智能",
+      "code": "601615",
+      "trigger_price": 9.171,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "大金重工",
+      "code": "002487",
+      "trigger_price": 33.633,
       "direction": "le",
       "triggered": false
     }
