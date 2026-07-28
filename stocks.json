@@ -281,6 +281,27 @@
       "triggered": false
     },
     {
+      "name": "百济神州",
+      "code": "688235",
+      "trigger_price": 236.862,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "艾力斯",
+      "code": "688578",
+      "trigger_price": 104.715,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "长鑫科技",
+      "code": "688825",
+      "trigger_price": 42.3,
+      "direction": "le",
+      "triggered": false
+    },
+    {
       "name": "上证指数",
       "code": "1A0001",
       "trigger_price": 3011.2,
@@ -298,13 +319,6 @@
       "name": "创业板指",
       "code": "399006",
       "trigger_price": 2742.9,
-      "direction": "le",
-      "triggered": false
-    },
-    {
-      "name": "上证指数",
-      "code": "1A0001",
-      "trigger_price": 3011.2,
       "direction": "le",
       "triggered": false
     },
