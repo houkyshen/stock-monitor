@@ -187,7 +187,8 @@
       "code": "512770",
       "trigger_price": 2.5,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 2.482
     },
     {
       "name": "医疗ETF",
@@ -297,7 +298,7 @@
     {
       "name": "创业板指",
       "code": "399006",
-      "trigger_price": 2742.90,
+      "trigger_price": 2742.9,
       "direction": "le",
       "triggered": false
     },
