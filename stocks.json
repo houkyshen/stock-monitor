@@ -302,6 +302,13 @@
       "triggered": false
     },
     {
+      "name": "伊利股份",
+      "code": "600887",
+      "trigger_price": 23.922,
+      "direction": "le",
+      "triggered": false
+    },
+    {
       "name": "上证指数",
       "code": "1A0001",
       "trigger_price": 3011.2,
