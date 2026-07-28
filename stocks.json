@@ -185,10 +185,9 @@
     {
       "name": "战略新兴",
       "code": "512770",
-      "trigger_price": 2.5,
+      "trigger_price": 2.25,
       "direction": "le",
-      "triggered": true,
-      "current_price": 2.482
+      "triggered": false
     },
     {
       "name": "医疗ETF",
