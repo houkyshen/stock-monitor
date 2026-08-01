@@ -82,8 +82,7 @@
       "code": "300308",
       "trigger_price": 888,
       "direction": "le",
-      "triggered": true,
-      "current_price": 864.0
+      "triggered": false
     },
     {
       "name": "特锐德",
