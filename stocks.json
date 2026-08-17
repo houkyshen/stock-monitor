@@ -66,10 +66,9 @@
     {
       "name": "华域汽车",
       "code": "600741",
-      "trigger_price": 15.38,
+      "trigger_price": 14.88,
       "direction": "le",
-      "triggered": true,
-      "current_price": 15.32
+      "triggered": false
     },
     {
       "name": "创新药基",
