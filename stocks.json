@@ -235,10 +235,9 @@
     {
       "name": "白云山",
       "code": "600332",
-      "trigger_price": 20.39,
+      "trigger_price": 19.45,
       "direction": "le",
-      "triggered": true,
-      "current_price": 20.11
+      "triggered": false
     },
     {
       "name": "宁德时代",
