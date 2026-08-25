@@ -336,6 +336,20 @@
       "trigger_price": 1372.32,
       "direction": "le",
       "triggered": false
+    },
+    {
+      "name": "红利指数",
+      "code": "1B0015",
+      "trigger_price": 2950,
+      "direction": "le",
+      "triggered": false
+    },
+    {
+      "name": "中证红利",
+      "code": "000922",
+      "trigger_price": 5100,
+      "direction": "le",
+      "triggered": false
     }
   ],
   "email": {

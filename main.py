@@ -13,6 +13,8 @@ CONFIG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "stocks.j
 INDEX_CODE_MAP = {
     "1A0001": "sh000001",
     "1B0688": "sh000688",
+    "1B0015": "sh000015",
+    "000922": "sh000922",
 }
 
 
@@ -47,16 +49,32 @@ def get_all_prices():
         except Exception as e:
             print(f"[WARN] {name}数据获取失败: {e}")
 
+    for index_code in INDEX_CODE_MAP.values():
+        try:
+            df = ak.stock_zh_index_daily_tx(symbol=index_code)
+            price = float(df.iloc[-1]["close"])
+            prices[index_code] = price
+            print(f"[INFO] 指数{index_code}数据获取成功，最新收盘 {price}")
+        except Exception as e:
+            print(f"[WARN] 指数{index_code}腾讯接口获取失败: {e}，尝试新浪接口")
+            try:
+                df = ak.stock_zh_index_daily(symbol=index_code)
+                price = float(df.iloc[-1]["close"])
+                prices[index_code] = price
+                print(f"[INFO] 指数{index_code}新浪接口获取成功，最新收盘 {price}")
+            except Exception as e2:
+                print(f"[WARN] 指数{index_code}新浪接口获取失败: {e2}")
+
     return prices
 
 
 def find_price(prices, code):
-    if code in prices:
-        return prices[code]
     if code in INDEX_CODE_MAP:
         mapped = INDEX_CODE_MAP[code]
         if mapped in prices:
             return prices[mapped]
+    if code in prices:
+        return prices[code]
     for prefix in ("sz", "sh", "bj"):
         prefixed = prefix + code
         if prefixed in prices:
