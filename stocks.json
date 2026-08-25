@@ -237,7 +237,8 @@
       "code": "600332",
       "trigger_price": 20.39,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 20.11
     },
     {
       "name": "宁德时代",
