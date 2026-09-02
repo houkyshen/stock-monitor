@@ -279,7 +279,8 @@
       "code": "002487",
       "trigger_price": 33.633,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 33.25
     },
     {
       "name": "百济神州",
