@@ -310,6 +310,13 @@
       "triggered": false
     },
     {
+      "name": "昆仑万维",
+      "code": "300418",
+      "trigger_price": 38.88,
+      "direction": "le",
+      "triggered": false
+    },
+    {
       "name": "上证指数",
       "code": "1A0001",
       "trigger_price": 3011.2,
