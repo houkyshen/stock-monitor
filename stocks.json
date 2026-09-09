@@ -174,7 +174,8 @@
       "code": "513050",
       "trigger_price": 1.03,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 1.029
     },
     {
       "name": "宝钢股份",
@@ -294,7 +295,8 @@
       "code": "688578",
       "trigger_price": 104.715,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 104.3
     },
     {
       "name": "长鑫科技",
