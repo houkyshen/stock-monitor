@@ -172,10 +172,9 @@
     {
       "name": "中概互联",
       "code": "513050",
-      "trigger_price": 1.03,
+      "trigger_price": 0.940,
       "direction": "le",
-      "triggered": true,
-      "current_price": 1.029
+      "triggered": false
     },
     {
       "name": "宝钢股份",
@@ -293,10 +292,9 @@
     {
       "name": "艾力斯",
       "code": "688578",
-      "trigger_price": 104.715,
+      "trigger_price": 90.00,
       "direction": "le",
-      "triggered": true,
-      "current_price": 104.3
+      "triggered": false
     },
     {
       "name": "长鑫科技",
