@@ -139,14 +139,16 @@
       "code": "513380",
       "trigger_price": 0.496,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 0.494
     },
     {
       "name": "汇川技术",
       "code": "300124",
       "trigger_price": 55.66,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 54.46
     },
     {
       "name": "黄金ETF",
@@ -172,7 +174,7 @@
     {
       "name": "中概互联",
       "code": "513050",
-      "trigger_price": 0.940,
+      "trigger_price": 0.94,
       "direction": "le",
       "triggered": false
     },
@@ -292,7 +294,7 @@
     {
       "name": "艾力斯",
       "code": "688578",
-      "trigger_price": 90.00,
+      "trigger_price": 90.0,
       "direction": "le",
       "triggered": false
     },
