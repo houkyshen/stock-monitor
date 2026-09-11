@@ -19,7 +19,8 @@
       "code": "002601",
       "trigger_price": 14.88,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 14.78
     },
     {
       "name": "安井食品",
