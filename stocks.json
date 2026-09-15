@@ -247,7 +247,8 @@
       "code": "300750",
       "trigger_price": 329.58,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 316.36
     },
     {
       "name": "海尔智家",
