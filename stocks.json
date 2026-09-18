@@ -69,7 +69,8 @@
       "code": "600741",
       "trigger_price": 14.88,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 14.88
     },
     {
       "name": "创新药基",
