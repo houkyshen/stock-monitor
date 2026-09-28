@@ -48,7 +48,8 @@
       "code": "002475",
       "trigger_price": 50.66,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 49.92
     },
     {
       "name": "东南亚科技ETF华泰",
