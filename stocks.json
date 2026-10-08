@@ -301,7 +301,8 @@
       "code": "688578",
       "trigger_price": 90.0,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 89.26
     },
     {
       "name": "长鑫科技",
@@ -322,7 +323,8 @@
       "code": "300418",
       "trigger_price": 38.88,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 38.36
     },
     {
       "name": "上证指数",
