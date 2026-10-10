@@ -17,10 +17,9 @@
     {
       "name": "龙佰集团",
       "code": "002601",
-      "trigger_price": 14.88,
+      "trigger_price": 14.22,
       "direction": "le",
-      "triggered": true,
-      "current_price": 14.78
+      "triggered": false
     },
     {
       "name": "安井食品",
@@ -46,10 +45,9 @@
     {
       "name": "立讯精密",
       "code": "002475",
-      "trigger_price": 50.66,
+      "trigger_price": 38.88,
       "direction": "le",
-      "triggered": true,
-      "current_price": 49.92
+      "triggered": false
     },
     {
       "name": "东南亚科技ETF华泰",
@@ -68,10 +66,9 @@
     {
       "name": "华域汽车",
       "code": "600741",
-      "trigger_price": 14.88,
+      "trigger_price": 13.22,
       "direction": "le",
-      "triggered": true,
-      "current_price": 14.88
+      "triggered": false
     },
     {
       "name": "创新药基",
@@ -83,10 +80,9 @@
     {
       "name": "中际旭创",
       "code": "300308",
-      "trigger_price": 888,
+      "trigger_price": 666,
       "direction": "le",
-      "triggered": true,
-      "current_price": 864.58
+      "triggered": false
     },
     {
       "name": "特锐德",
@@ -140,18 +136,16 @@
     {
       "name": "科技恒生",
       "code": "513380",
-      "trigger_price": 0.496,
+      "trigger_price": 0.388,
       "direction": "le",
-      "triggered": true,
-      "current_price": 0.494
+      "triggered": false
     },
     {
       "name": "汇川技术",
       "code": "300124",
-      "trigger_price": 55.66,
+      "trigger_price": 40.33,
       "direction": "le",
-      "triggered": true,
-      "current_price": 54.46
+      "triggered": false
     },
     {
       "name": "黄金ETF",
@@ -240,18 +234,16 @@
     {
       "name": "白云山",
       "code": "600332",
-      "trigger_price": 19.45,
+      "trigger_price": 16.36,
       "direction": "le",
-      "triggered": true,
-      "current_price": 19.45
+      "triggered": false
     },
     {
       "name": "宁德时代",
       "code": "300750",
-      "trigger_price": 329.58,
+      "trigger_price": 250,
       "direction": "le",
-      "triggered": true,
-      "current_price": 316.36
+      "triggered": false
     },
     {
       "name": "海尔智家",
@@ -286,8 +278,7 @@
       "code": "002487",
       "trigger_price": 33.633,
       "direction": "le",
-      "triggered": true,
-      "current_price": 33.25
+      "triggered": false
     },
     {
       "name": "百济神州",
@@ -299,10 +290,9 @@
     {
       "name": "艾力斯",
       "code": "688578",
-      "trigger_price": 90.0,
+      "trigger_price": 71.22,
       "direction": "le",
-      "triggered": true,
-      "current_price": 89.26
+      "triggered": false
     },
     {
       "name": "长鑫科技",
@@ -321,10 +311,9 @@
     {
       "name": "昆仑万维",
       "code": "300418",
-      "trigger_price": 38.88,
+      "trigger_price": 35.55,
       "direction": "le",
-      "triggered": true,
-      "current_price": 38.36
+      "triggered": false
     },
     {
       "name": "上证指数",
