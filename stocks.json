@@ -54,7 +54,8 @@
       "code": "513730",
       "trigger_price": 1.08,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 1.054
     },
     {
       "name": "招商银行",
@@ -187,7 +188,8 @@
       "code": "512770",
       "trigger_price": 2.25,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 2.227
     },
     {
       "name": "医疗ETF",
