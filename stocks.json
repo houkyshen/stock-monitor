@@ -273,7 +273,8 @@
       "code": "601615",
       "trigger_price": 9.171,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 8.99
     },
     {
       "name": "大金重工",
