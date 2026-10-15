@@ -19,7 +19,8 @@
       "code": "002601",
       "trigger_price": 14.22,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 13.93
     },
     {
       "name": "安井食品",
@@ -83,7 +84,8 @@
       "code": "300308",
       "trigger_price": 666,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 656.94
     },
     {
       "name": "特锐德",
@@ -344,7 +346,8 @@
       "code": "1B0688",
       "trigger_price": 1372.32,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 1359.52
     },
     {
       "name": "红利指数",
