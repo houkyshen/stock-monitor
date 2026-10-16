@@ -52,10 +52,9 @@
     {
       "name": "东南亚科技ETF华泰",
       "code": "513730",
-      "trigger_price": 1.08,
+      "trigger_price": 0.98,
       "direction": "le",
-      "triggered": true,
-      "current_price": 1.054
+      "triggered": false
     },
     {
       "name": "招商银行",
