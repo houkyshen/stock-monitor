@@ -299,7 +299,8 @@
       "code": "688825",
       "trigger_price": 42.3,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 41.52
     },
     {
       "name": "伊利股份",
