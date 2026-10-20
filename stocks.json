@@ -335,7 +335,8 @@
       "code": "399006",
       "trigger_price": 2742.9,
       "direction": "le",
-      "triggered": false
+      "triggered": true,
+      "current_price": 2739.203
     },
     {
       "name": "科创50",
