@@ -97,6 +97,7 @@ def send_email(config, stock):
 当前价格：{stock['current_price']}
 触发价格：{stock['trigger_price']}
 触发方向：{'<= （下跌至）' if stock['direction'] == 'le' else '>= （上涨至）'}
+备注：{stock.get('comment', '')}
 提醒时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 """
 

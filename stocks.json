@@ -5,238 +5,264 @@
       "code": "000333",
       "trigger_price": 60.66,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "五粮液",
       "code": "000858",
       "trigger_price": 60.55,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "龙佰集团",
       "code": "002601",
       "trigger_price": 13.66,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "破了最近三年的最低位！无脑入手。"
     },
     {
       "name": "安井食品",
       "code": "603345",
       "trigger_price": 70.11,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "近半年底部，但没到25年的最低价，但是也可以考虑买入一些。"
     },
     {
       "name": "万华化学",
       "code": "600309",
       "trigger_price": 60.66,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "这个价位可以考虑买入一些，虽然去年的最低价是50块钱，但是下降空间也不多了。"
     },
     {
       "name": "阳光电源",
       "code": "300274",
-      "trigger_price": 66.66,
+      "trigger_price": 49.58,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "破了去年的最低价，但是由于利润和营收双下滑，估值通道下行，还得继续观察，不过可以考虑买入少量。下跌空间有限。"
     },
     {
       "name": "立讯精密",
       "code": "002475",
       "trigger_price": 38.88,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "超级低位，虽然没有25年4月贸易战那一波的价格那么低，但是也是绝对值得无脑买入的。"
     },
     {
       "name": "东南亚科技ETF华泰",
       "code": "513730",
       "trigger_price": 0.98,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "跌破了25年的最低价，如果此时其他股票机会不多的话，可以考虑买入了。"
     },
     {
       "name": "招商银行",
       "code": "600036",
-      "trigger_price": 34.77,
+      "trigger_price": 28.78,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "到了近五年的估值通道底部，果断买入部分。"
     },
     {
       "name": "华域汽车",
       "code": "600741",
-      "trigger_price": 13.22,
+      "trigger_price": 12.88,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "估值通道底部，可以考虑买入部分。"
     },
     {
       "name": "创新药基",
       "code": "589120",
-      "trigger_price": 0.69,
+      "trigger_price": 0.67,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "跌破了近1年的最低位，25年9月上市的。"
     },
     {
       "name": "中际旭创",
       "code": "300308",
       "trigger_price": 520,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "到达近三年估值通道的蓝色线，最多还能跌到240，也就是腰斩。"
     },
     {
-      "name": "特锐德",
-      "code": "300001",
-      "trigger_price": 26.88,
+      "name": "国电南瑞",
+      "code": "600406",
+      "trigger_price": 21.88,
       "direction": "le",
-      "triggered": false
-    },
-    {
-      "name": "格力电器",
-      "code": "000651",
-      "trigger_price": 34.88,
-      "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "超级稳健的电网设备龙头，这个价格近五年估值通道的底部，果断买入一些。"
     },
     {
       "name": "招商蛇口",
       "code": "001979",
       "trigger_price": 5.88,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "再创新低，可以考虑房地产除了40年房贷和贴息外，还有没有其他政策。"
     },
     {
       "name": "标普油气",
       "code": "159518",
-      "trigger_price": 0.888,
+      "trigger_price": 1.009,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "跌破近一年的最低价，可以考虑买一点点。"
     },
     {
       "name": "鱼跃医疗",
       "code": "002223",
       "trigger_price": 22.88,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "市净率的近五年最低值，基本跌无可跌了。"
     },
     {
       "name": "银禧科技",
       "code": "300221",
       "trigger_price": 8.66,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "虽然市净率非常高，但是前景很不错，盈利能力强，这个位置是近一年低位，可以考虑，不过风险还是偏高，因为25年涨太多了。"
     },
     {
       "name": "标普ETF",
       "code": "513650",
       "trigger_price": 1.61,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "跌破今年最低价，无脑买入。"
     },
     {
       "name": "科技恒生",
       "code": "513380",
-      "trigger_price": 0.388,
+      "trigger_price": 0.399,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "跌破近三年最低价，可以考虑买入，而且恒生科技低位确实挺诱人的。"
     },
     {
       "name": "汇川技术",
       "code": "300124",
       "trigger_price": 40.33,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "跌破近五年市盈率最低点，超级好的买入时机，但是已经有条件单的，问题不大。"
     },
     {
       "name": "黄金ETF",
       "code": "518880",
       "trigger_price": 7.111,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "跌破近一年的最低价，可以考虑了，黄金长期还是上涨的，除非特朗普下台了。"
     },
     {
       "name": "海天味业",
       "code": "603288",
       "trigger_price": 31.66,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "跌破近两年的低位，已有条件单。"
     },
     {
       "name": "中国移动",
       "code": "600941",
       "trigger_price": 83.75,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "非常接近近三年的低位，非常值得买入，已有条件单。"
     },
     {
       "name": "中概互联",
       "code": "513050",
       "trigger_price": 0.94,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "宝钢股份",
       "code": "600019",
       "trigger_price": 5.11,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "战略新兴",
       "code": "512770",
       "trigger_price": 1.88,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "医疗ETF",
       "code": "512170",
       "trigger_price": 0.3,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "中国海油",
       "code": "600938",
       "trigger_price": 26.06,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "标普消费",
       "code": "159529",
       "trigger_price": 1.16,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "纳指指数",
       "code": "513870",
       "trigger_price": 1.82,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "正泰电器",
       "code": "601877",
       "trigger_price": 21.42,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "顺丰控股",
       "code": "002352",
       "trigger_price": 30.06,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "白云山",
       "code": "600332",
       "trigger_price": 16.36,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "宁德时代",
@@ -244,35 +270,40 @@
       "trigger_price": 250,
       "direction": "le",
       "triggered": true,
-      "current_price": 227.9
+      "current_price": 227.9,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "海尔智家",
       "code": "600690",
       "trigger_price": 19.0,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "中国船舶",
       "code": "600150",
       "trigger_price": 29.106,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "松发股份",
       "code": "603268",
       "trigger_price": 126.9,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "明阳智能",
       "code": "601615",
       "trigger_price": 8.55,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "大金重工",
@@ -280,21 +311,24 @@
       "trigger_price": 33.633,
       "direction": "le",
       "triggered": true,
-      "current_price": 31.4
+      "current_price": 31.4,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "百济神州",
       "code": "688235",
       "trigger_price": 236.862,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "艾力斯",
       "code": "688578",
       "trigger_price": 71.22,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "长鑫科技",
@@ -302,35 +336,40 @@
       "trigger_price": 42.3,
       "direction": "le",
       "triggered": true,
-      "current_price": 41.52
+      "current_price": 41.52,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "伊利股份",
       "code": "600887",
       "trigger_price": 23.922,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "昆仑万维",
       "code": "300418",
       "trigger_price": 35.55,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "上证指数",
       "code": "1A0001",
       "trigger_price": 3011.2,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "深证成指",
       "code": "399001",
       "trigger_price": 10965.51,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "创业板指",
@@ -338,28 +377,32 @@
       "trigger_price": 2742.9,
       "direction": "le",
       "triggered": true,
-      "current_price": 2739.203
+      "current_price": 2739.203,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "科创50",
       "code": "1B0688",
       "trigger_price": 1249.88,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "红利指数",
       "code": "1B0015",
       "trigger_price": 2950,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "中证红利",
       "code": "000922",
       "trigger_price": 5100,
       "direction": "le",
-      "triggered": false
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     }
   ],
   "email": {
