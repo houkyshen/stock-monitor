@@ -386,8 +386,9 @@
       "code": "1B0688",
       "trigger_price": 1249.88,
       "direction": "le",
-      "triggered": false,
-      "comment": "已经很低位了，赶紧关注！"
+      "triggered": true,
+      "comment": "已经很低位了，赶紧关注！",
+      "current_price": 1228.09
     },
     {
       "name": "红利指数",
