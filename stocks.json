@@ -353,8 +353,9 @@
       "code": "300418",
       "trigger_price": 35.55,
       "direction": "le",
-      "triggered": false,
-      "comment": "已经很低位了，赶紧关注！"
+      "triggered": true,
+      "comment": "已经很低位了，赶紧关注！",
+      "current_price": 33.25
     },
     {
       "name": "上证指数",
@@ -369,8 +370,9 @@
       "code": "399001",
       "trigger_price": 10965.51,
       "direction": "le",
-      "triggered": false,
-      "comment": "已经很低位了，赶紧关注！"
+      "triggered": true,
+      "comment": "已经很低位了，赶紧关注！",
+      "current_price": 10833.784
     },
     {
       "name": "创业板指",
