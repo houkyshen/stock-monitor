@@ -93,8 +93,9 @@
       "code": "300308",
       "trigger_price": 520,
       "direction": "le",
-      "triggered": false,
-      "comment": "到达近三年估值通道的蓝色线，最多还能跌到240，也就是腰斩。"
+      "triggered": true,
+      "comment": "到达近三年估值通道的蓝色线，最多还能跌到240，也就是腰斩。",
+      "current_price": 480.2
     },
     {
       "name": "国电南瑞",
