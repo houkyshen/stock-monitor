@@ -206,8 +206,9 @@
       "code": "512770",
       "trigger_price": 1.88,
       "direction": "le",
-      "triggered": false,
-      "comment": "已经很低位了，赶紧关注！"
+      "triggered": true,
+      "comment": "已经很低位了，赶紧关注！",
+      "current_price": 1.88
     },
     {
       "name": "医疗ETF",
