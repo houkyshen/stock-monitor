@@ -91,11 +91,10 @@
     {
       "name": "中际旭创",
       "code": "300308",
-      "trigger_price": 520,
+      "trigger_price": 300,
       "direction": "le",
-      "triggered": true,
-      "comment": "到达近三年估值通道的蓝色线，最多还能跌到240，也就是腰斩。",
-      "current_price": 480.2
+      "triggered": false,
+      "comment": "到达近三年估值通道的蓝色线，最多还能跌到240，也就是腰斩。"
     },
     {
       "name": "国电南瑞",
@@ -204,11 +203,10 @@
     {
       "name": "战略新兴",
       "code": "512770",
-      "trigger_price": 1.88,
+      "trigger_price": 1.66,
       "direction": "le",
-      "triggered": true,
-      "comment": "已经很低位了，赶紧关注！",
-      "current_price": 1.88
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "医疗ETF",
@@ -336,7 +334,7 @@
     {
       "name": "长鑫科技",
       "code": "688825",
-      "trigger_price": 42.3,
+      "trigger_price": 38.88,
       "direction": "le",
       "triggered": true,
       "current_price": 41.52,
@@ -353,10 +351,10 @@
     {
       "name": "昆仑万维",
       "code": "300418",
-      "trigger_price": 35.55,
+      "trigger_price": 25.88,
       "direction": "le",
       "triggered": true,
-      "comment": "已经很低位了，赶紧关注！",
+      "comment": "AI短剧到了近几年低位，建议布局！",
       "current_price": 33.25
     },
     {
@@ -370,29 +368,26 @@
     {
       "name": "深证成指",
       "code": "399001",
-      "trigger_price": 10965.51,
+      "trigger_price": 7500,
       "direction": "le",
-      "triggered": true,
-      "comment": "已经很低位了，赶紧关注！",
-      "current_price": 10833.784
+      "triggered": false,
+      "comment": "深圳成指跌到了估值通道最低点！"
     },
     {
       "name": "创业板指",
       "code": "399006",
-      "trigger_price": 2742.9,
+      "trigger_price": 2200,
       "direction": "le",
-      "triggered": true,
-      "current_price": 2739.203,
-      "comment": "已经很低位了，赶紧关注！"
+      "triggered": false,
+      "comment": "抄底创业板！"
     },
     {
       "name": "科创50",
       "code": "1B0688",
-      "trigger_price": 1249.88,
+      "trigger_price": 888,
       "direction": "le",
-      "triggered": true,
-      "comment": "已经很低位了，赶紧关注！",
-      "current_price": 1228.09
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     },
     {
       "name": "红利指数",
