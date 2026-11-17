@@ -189,8 +189,9 @@
       "code": "513050",
       "trigger_price": 0.94,
       "direction": "le",
-      "triggered": false,
-      "comment": "已经很低位了，赶紧关注！"
+      "triggered": true,
+      "comment": "已经很低位了，赶紧关注！",
+      "current_price": 0.916
     },
     {
       "name": "宝钢股份",
@@ -402,8 +403,9 @@
       "code": "000922",
       "trigger_price": 5100,
       "direction": "le",
-      "triggered": false,
-      "comment": "已经很低位了，赶紧关注！"
+      "triggered": true,
+      "comment": "已经很低位了，赶紧关注！",
+      "current_price": 9.44
     }
   ],
   "email": {
