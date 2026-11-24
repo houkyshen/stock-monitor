@@ -61,8 +61,9 @@
       "code": "513730",
       "trigger_price": 0.98,
       "direction": "le",
-      "triggered": false,
-      "comment": "跌破了25年的最低价，如果此时其他股票机会不多的话，可以考虑买入了。"
+      "triggered": true,
+      "comment": "跌破了25年的最低价，如果此时其他股票机会不多的话，可以考虑买入了。",
+      "current_price": 0.951
     },
     {
       "name": "招商银行",
@@ -85,8 +86,9 @@
       "code": "589120",
       "trigger_price": 0.67,
       "direction": "le",
-      "triggered": false,
-      "comment": "跌破了近1年的最低位，25年9月上市的。"
+      "triggered": true,
+      "comment": "跌破了近1年的最低位，25年9月上市的。",
+      "current_price": 0.656
     },
     {
       "name": "中际旭创",
@@ -149,8 +151,9 @@
       "code": "513380",
       "trigger_price": 0.399,
       "direction": "le",
-      "triggered": false,
-      "comment": "跌破近三年最低价，可以考虑买入，而且恒生科技低位确实挺诱人的。"
+      "triggered": true,
+      "comment": "跌破近三年最低价，可以考虑买入，而且恒生科技低位确实挺诱人的。",
+      "current_price": 0.396
     },
     {
       "name": "汇川技术",
