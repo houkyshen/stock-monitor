@@ -403,9 +403,8 @@
       "code": "000922",
       "trigger_price": 5100,
       "direction": "le",
-      "triggered": true,
-      "comment": "已经很低位了，赶紧关注！",
-      "current_price": 9.44
+      "triggered": false,
+      "comment": "已经很低位了，赶紧关注！"
     }
   ],
   "email": {
