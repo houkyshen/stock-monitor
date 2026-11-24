@@ -9,10 +9,22 @@ stock-monitor/
 ├── pyproject.toml                  # uv 项目配置，依赖 akshare
 ├── stocks.json                     # 股票监控列表 + 触发状态（运行时更新）
 ├── main.py                         # 核心监控脚本
+├── test_monitor.py                 # 单元测试（代码映射/行情解析）+ 行情联通性测试
 ├── reset_trigger.py               # 重置所有已触发股票状态
-├── .github/workflows/monitor.yml  # GitHub Actions 定时任务（每晚 21:00 北京时间）
+├── .github/workflows/monitor.yml  # GitHub Actions 定时任务（每晚 19:00 北京时间）
 └── .gitignore
 ```
+
+## 数据来源
+
+行情按以下顺序获取，前一级失败会自动降级到下一级：
+
+1. **腾讯批量行情**（`qt.gtimg.cn`）：一次请求即可取回所有股票、ETF、指数的最新价，速度快、不易被限流，是默认数据源；
+2. **akshare 全市场行情**：东方财富股票/ETF、新浪股票/ETF、新浪指数；
+3. **akshare 指数日线**：腾讯日线、新浪日线。
+
+> akshare 从 1.20.x 起重命名了部分接口（如 `stock_zh_a_spot` → `stock_zh_a_spot_sina`）。
+> `main.py` 中的 `_ak()` 会同时兼容新旧接口名，升级 akshare 后不会因为改名而失效。
 
 ## 快速开始
 
@@ -35,7 +47,13 @@ uv run python main.py
 
 ### 3. 定时运行
 
-GitHub Actions 已配置每天北京时间 21:00（UTC 13:00）自动执行，也可在 Actions 页面手动触发（`workflow_dispatch`）。
+GitHub Actions 已配置每天北京时间 19:00（UTC 11:00）自动执行，也可在 Actions 页面手动触发（`workflow_dispatch`）。
+
+### 4. 运行测试
+
+```bash
+uv run python -m unittest test_monitor -v
+```
 
 ## 股票配置
 
@@ -92,6 +110,7 @@ uv run python reset_trigger.py
 ## 技术栈
 
 - Python 3.10+
-- [akshare](https://github.com/akfamily/akshare) — A 股实时行情数据
+- [腾讯行情接口](https://qt.gtimg.cn) — 主力数据源，批量获取实时行情
+- [akshare](https://github.com/akfamily/akshare) — A 股行情备用数据源
 - uv — 包管理
 - GitHub Actions — 定时执行
