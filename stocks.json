@@ -209,8 +209,9 @@
       "code": "512770",
       "trigger_price": 1.66,
       "direction": "le",
-      "triggered": false,
-      "comment": "已经很低位了，赶紧关注！"
+      "triggered": true,
+      "comment": "已经很低位了，赶紧关注！",
+      "current_price": 1.654
     },
     {
       "name": "医疗ETF",
@@ -382,8 +383,9 @@
       "code": "399006",
       "trigger_price": 2200,
       "direction": "le",
-      "triggered": false,
-      "comment": "抄底创业板！"
+      "triggered": true,
+      "comment": "抄底创业板！",
+      "current_price": 2183.58
     },
     {
       "name": "科创50",
